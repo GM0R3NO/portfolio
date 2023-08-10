@@ -1,0 +1,48 @@
+.principal{
+    display: flex;
+    align-items: center;
+    margin: 0% 18%;
+    text-align: center;
+}
+
+
+.texto-destacado{
+    color: var(--cor-secundaria);
+}
+
+.texto{
+    margin: 0em 0em 0.5em 0em;
+}
+
+.paragrafo{
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    color: aquamarine;
+}
+
+.principal__div{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.principal__div a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color: var(--cor-terciaria);
+    border: 1px solid aqua;
+    border-radius: 8px;
+    padding:1em 0;
+    width: 50%;
+
+}
+
+.principal__div a:hover{
+background-color: rgb(50, 59, 59);
+}
+

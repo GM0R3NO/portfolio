@@ -1,0 +1,14 @@
+.cabecalho{
+    padding: 1em 0;
+}
+
+.cabecalho__links{
+    margin: 5% 15% 0 15%;
+}
+
+.cabecalho__links-link{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    padding: 3em;
+    font-weight: 600;
+}
