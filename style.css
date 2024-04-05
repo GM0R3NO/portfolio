@@ -16,11 +16,59 @@
 }
 
 body{
+    transition: 2s;
     box-sizing: border-box;
     background-color: var(--cor-principal);
     color: var(--cor-terciaria);
     font-family: var(--fonte-principal);
     font-weight: 400;
+}
+
+input{
+    display: none;
+}
+
+label{
+    display: flex;
+    justify-content: end;
+}
+
+label img{
+    width: 50px;
+}
+
+.habilidades{
+    color: var(--cor-secundaria);
+    font-size: 2em;
+    font-family: var(--fonte-principal);
+    margin-top: 1.5rem;
+}
+
+.logos:hover{
+    cursor: pointer;
+}
+
+.logos__container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dark{
+    transition: 2s;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.link{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.link img{
+    margin-right: 8px;
 }
 
 

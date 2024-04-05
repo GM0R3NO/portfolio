@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__links">
             <a href="index.html" class="cabecalho__links-link">Home</a>
             <a href="about.html" class="cabecalho__links-link">Sobre mim</a>
+            <input id="modo" type="checkbox">
+            <label for="modo"><img class="sol" src="img/sol.png" alt=""></label>
         </nav>
     </header>
     <main class="principal">
         <section class="principal__section">
            <h1 class="texto">Gabriel Moreno <strong class="texto-destacado">Futuro Dev</strong> </h1>
             <p class="paragrafo">Olá, eu sou o Gabriel Moreno, um estudante de programação com foco em desenvolvimento front-end e aspirante a me tornar um desenvolvedor fullstack.</p>
+            <div class="habilidades"><p>Habilidades</p></div>
+            <div class="logos__container">
+                <a href="https://cursos.alura.com.br/user/morenogabriel114/fullCertificate/dd228173baeccbe03fd21f275641cd2a"><img class="logos" src="./img/html.png" alt="logo-html"></a>
+                <a href="https://cursos.alura.com.br/user/morenogabriel114/fullCertificate/dd228173baeccbe03fd21f275641cd2a"><img class="logos" src="./img/css.png" alt="logo-css"></a>
+                <a href="https://cursos.alura.com.br/user/morenogabriel114/fullCertificate/dd228173baeccbe03fd21f275641cd2a"><img class="logos" src="./img/js.png" alt="logo-js"></a>
+            </div>
             <div class="principal__div">
                 <h2>Acesse minhas redes:</h2>
-                <a href="https://github.com/GM0R3NO">GitHub</a>
-                <a href="https://www.linkedin.com/in/gabriel-moreno-g/">Linkedin</a>
-                <a href="https://www.instagram.com/gabri3lbr/">Instagram</a>
+                <a class="link" href="https://github.com/GM0R3NO"><img src="./img/git.png" alt="">GitHub</a>
+                <a class="link" href="https://www.linkedin.com/in/gabriel-moreno-g/"><img src="./img/linkedin.png" alt="">Linkedin</a>
+                <a class="link" href="https://www.instagram.com/gabri3lbr/"><img src="./img/instagram.png" alt="">Instagram</a>
             </div>
         </section>
         <img class="foto" src="./img/Gabriel-Moreno.png" alt="imagem do Gabriel Moreno">
